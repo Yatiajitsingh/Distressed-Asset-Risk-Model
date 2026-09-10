@@ -1,2 +1,1 @@
-# Distressed-Asset-Risk-Model
-An end-to-end ETL pipeline and econometric risk model analyzing bankruptcy conditions in controlled-environment agriculture
+[https://id-preview--692dba05-991f-4cb1-9dde-71908904cd41.lovable.app/](https://id-preview--692dba05-991f-4cb1-9dde-71908904cd41.lovable.app/)
