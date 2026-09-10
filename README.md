@@ -1,21 +1,21 @@
-# Farm Finance Guardian: Risk & Econometric Model
+# Farm Finance Guardian: Econometric Risk Model
 
 ### 🌐 Live Interactive Dashboard: [Farm Finance Guardian Simulator](https://id-preview--692dba05-991f-4cb1-9dde-71908904cd41.lovable.app/)
-### 💻 Backend Code: [View Google Colab Notebook Here] *(Note: Make sure to link your Colab file here!)*
+### 💻 Backend Code: [View Google Colab Notebook Here]
 
 ## Project Overview
-This project is an end-to-end econometric pipeline designed to quantify the bankruptcy risk of high-tech indoor farming facilities under extreme climate stress. By merging historical market data with satellite environmental telemetry, the model calculates the precise breaking point where operational HVAC costs outpace wholesale commodity pricing.
+An end-to-end quantitative risk model built to evaluate the financial insolvency rates of controlled-environment agricultural assets under severe climate shocks. 
 
-## Architecture & Data Ingestion
-* **Market Data (Revenue):** Extracted and aggregated 2.3+ million rows of historical wholesale agricultural prices across five major regional hubs.
-* **Climate Data (Risk):** Ingested 10 years of daily continuous Maximum Temperature and Cooling Degree Days (CDD) via satellite telemetry for target geographic zones.
-* **ETL Pipeline:** Built a relational inner-join architecture using `pandas` to lock daily commodity pricing to exact localized environmental stressors.
+## Data Architecture & Scale
+* **Market Telemetry:** Aggregated and cleaned over 2.3 million rows of wholesale transaction records across 5 distinct regional hubs.
+* **Climate Shocks:** Ingested 10 years of continuous satellite data (NASA POWER) to track localized extreme weather events.
+* **ETL Pipeline:** Engineered a highly performant relational join, locking daily asset pricing to exact environmental stress parameters.
 
-## Econometric Methodology
-To prove causality, the pipeline utilizes an Ordinary Least Squares (OLS) multivariable regression model (`statsmodels`). 
+## Causal Econometric Analysis
+* Deployed an Ordinary Least Squares (OLS) multivariable regression to isolate the causal impact of market disruptions.
+* **Heat Penalty:** Quantified that a 1°C ambient spike causally drives a ₹200.36 drop in wholesale valuation (p < 0.001).
+* **AC Premium:** Determined the market only yields a ₹222.78 premium for peak cooling loads, mathematically confirming the bankruptcy trap.
 
-**The findings are statistically significant (p < 0.001):**
-1. **Heat Penalty:** For every 1°C increase in max temperature, market price drops by ₹200.36.
-2. **AC Reward:** For every unit of required cooling load, the market offers a ₹222.78 premium.
-3. **The Bankruptcy Trap:** The net positive margin (₹22) during heatwaves is mathematically insufficient to cover the exponential spike in industrial HVAC electricity costs, proving the high insolvency rate of distressed vertical farming assets.
-
+## Uncertainty Quantification
+* Modeled variance and tail-risk by calculating a 95% Confidence Interval for all climate-induced market shocks.
+* Integrated strict p-value significance testing to filter out market noise and validate the core financial thesis.
