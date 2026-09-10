@@ -19,4 +19,3 @@ To prove causality, the pipeline utilizes an Ordinary Least Squares (OLS) multiv
 2. **AC Reward:** For every unit of required cooling load, the market offers a ₹222.78 premium.
 3. **The Bankruptcy Trap:** The net positive margin (₹22) during heatwaves is mathematically insufficient to cover the exponential spike in industrial HVAC electricity costs, proving the high insolvency rate of distressed vertical farming assets.
 
-[https://id-preview--692dba05-991f-4cb1-9dde-71908904cd41.lovable.app/](https://id-preview--692dba05-991f-4cb1-9dde-71908904cd41.lovable.app/)
